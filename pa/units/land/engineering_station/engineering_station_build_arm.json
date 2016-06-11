@@ -3,10 +3,10 @@
 	"yaw_rate": 360,
 	"pitch_rate": 360,
 	"max_range": 150,
-	"auto_repair": true,
+	"auto_repair": false,
 	"construction_demand": {
 		"energy": 900,
 		"metal": 30
 	},
-	"can_only_assist_with_buildable_items": true
+	"can_only_assist_with_buildable_items": false
 }
