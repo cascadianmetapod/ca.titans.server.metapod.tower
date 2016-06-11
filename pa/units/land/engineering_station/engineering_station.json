@@ -11,14 +11,20 @@
 	"buildable_types":"Land & Structure & Basic | Factory & Basic | Factory & Land | FabBuild", 
 	"unit_types": [
 	"UNITTYPE_Structure",
+	"UNITTYPE_Factory",
 	"UNITTYPE_Fabber","UNITTYPE_Construction",
 "UNITTYPE_Mobile",
 "UNITTYPE_Basic","UNITTYPE_Land","UNITTYPE_FactoryBuild",
 "UNITTYPE_CannonBuildable"
 	],
-	"command_caps": ["ORDER_Move",
+	"command_caps": [
+	
+	"ORDER_Assist",
 	"ORDER_Patrol",
-"ORDER_Build","ORDER_Reclaim","ORDER_Repair","ORDER_Assist","ORDER_Use"],
+    "ORDER_Build",
+	"ORDER_Reclaim",
+	"ORDER_Repair",
+	"ORDER_Use"],
 	"guard_layer": "WL_LandHorizontal",
 	"recon": {
 		"observer": {
